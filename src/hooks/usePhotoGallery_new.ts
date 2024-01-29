@@ -73,7 +73,7 @@ export function usePhotoGallery() {
             })
             base64Data = file.data
         } else {
-            base64Data = await base64FromPath(photo.webPath!) // This may display a type error. It will still run.
+            base64Data = await base64FromPath(photo.webPath!) as string // This may display a type error. It will still run.
         }
         const savedFile = await Filesystem.writeFile({
             path: fileName,
