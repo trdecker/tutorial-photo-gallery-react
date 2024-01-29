@@ -1,6 +1,6 @@
 # Build Your First Ionic App: Photo Gallery (Ionic React and Capacitor)
 
-Get started with Ionic by building a photo gallery app that runs on iOS, Android, and the web - with just one codebase. This is the complete project referenced in the ["Your First App: React" guide](https://ionicframework.com/docs/react/your-first-app). Follow along to create a complete CRUD (create-read-update-delete) experience.
+Project based on the ["Your First App: React" guide](https://ionicframework.com/docs/react/your-first-app). Follow along to create a complete CRUD (create-read-update-delete) tutorial.
 
 Powered by [Ionic React](https://ionicframework.com/docs/react) (web app) and [Capacitor](https://capacitor.ionicframework.com) (native app runtime).
 
@@ -20,7 +20,8 @@ After the user navigates to Tab 2 (Photos), they can tap/click on the camera but
   * Storing photo gallery metadata: [Preferences API](https://capacitor.ionicframework.com/docs/apis/preferences)
 
 ## Project Structure
-* Tab2 (Photos) (`src/pages/Tab2.tsx`): Photo Gallery UI and basic logic.
+* Tab1 (Photos): Custom made Photo Gallery UI. (Basically the same).
+* Tab2 (Old Photos) (`src/pages/Tab2.tsx`): Photo Gallery UI example.
 * usePhotoGallery Hook (`src/hooks/usePhotoGallery.ts`): Logic encapsulating Capacitor APIs, including Camera, Filesystem, and Preferences.
 
 ## How to Run
