@@ -8,6 +8,7 @@ import { Preferences } from '@capacitor/preferences';
 import { Capacitor } from '@capacitor/core';
 
 const PHOTO_STORAGE = 'photos';
+
 export function usePhotoGallery() {
 
   const [photos, setPhotos] = useState<UserPhoto[]>([]);
